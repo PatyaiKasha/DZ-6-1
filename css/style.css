@@ -1,0 +1,72 @@
+body {
+  margin: 24px 0 72px 24px;
+  padding: 0;
+}
+
+.task1 .p1 {
+  background-color: #00FF0F;
+}
+.task1 .p1:hover {
+  background-color: #E7FF00;
+  cursor: pointer;
+}
+.task1 .p1:active {
+  background-color: #FF0200;
+}
+.task1 .p2 {
+  background-color: #FF0200;
+}
+.task1 .p2:hover {
+  background-color: #7B4122;
+  cursor: pointer;
+}
+.task1 .p2:active {
+  background-color: #E19700;
+}
+
+.task2 input:focus {
+  border-color: #00FF0F;
+}
+
+.task3-4-5 p:nth-child(even) {
+  background-color: #848484;
+}
+.task3-4-5 p:first-letter {
+  font-size: 2em;
+  color: #FF0000;
+  font-family: Georgia;
+}
+.task3-4-5 p::after {
+  content: "*";
+  display: block;
+  text-align: center;
+}
+
+.task6 p::before {
+  content: "\2602";
+}
+.task6 p:first-letter {
+  font-size: 1.5em;
+  color: #FF0000;
+  font-family: Georgia;
+}
+
+.task7 {
+  width: 45px;
+  height: 30px;
+  background-color: #000;
+  margin-left: 24px;
+  display: inline-block;
+}
+
+.task7::before {
+  content: "\25C2";
+  color: #000;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  position: relative;
+  margin: 4.015px 0 0 -8.03px;
+}
+
+/*# sourceMappingURL=style.css.map */
