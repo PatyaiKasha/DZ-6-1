@@ -66,6 +66,7 @@ body {
 
 // Task 7
 .task7 {
+    position: relative;
     width: 45px;
     height: 30px;
     background-color: #000;
@@ -75,10 +76,7 @@ body {
 
 .task7::before {
     content: "\25C2";
-    color: #000;
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-    position: relative;
-    margin: 4.015px 0 0 -8.03px;
+    right: 100%;
+    top: 4.015px;
+    position: absolute;
 }
